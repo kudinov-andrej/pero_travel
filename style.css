@@ -49,13 +49,14 @@
     flex-direction: row;
     text-decoration: none;
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 17px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
 
 }
+
 .header_link {
     text-decoration: none;
     list-style-type: none;
@@ -66,15 +67,22 @@ color: #FFFFFF;
 .header_link:last-child {
     margin-right: 0;
 }
+
 .header_link-punkt {
     margin: 0;
     max-width: 124px;
     text-decoration: none;
     color: #FFFFFF;
 }
-.header_link-punkt:focus  {
+
+.header_link-punkt:focus {
     color: #FFC700;
 }
+
+.header_link-punkt:hover {
+    opacity: 0.8;
+}
+
 .header__title {
     margin: 0;
     margin-left: 11.11%;
@@ -88,25 +96,27 @@ color: #FFFFFF;
     max-width: 723px;
     align-self: flex-start;
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 72px;
-line-height: 88px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 88px;
+    color: #FFFFFF;
 }
-.header__title_yellow{
+
+.header__title_yellow {
     margin: 0;
     margin-top: -40px;
     max-width: 723px;
     margin-right: 32px;
     align-self: flex-end;
     font-family: 'mr_KindlyJasmineG';
-font-style: normal;
-font-weight: 400;
-font-size: 64px;
-line-height: 64px;
-color: #FFC700;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFC700;
 }
+
 .header__title_transporent {
     margin: 0;
     margin-top: -40px;
@@ -117,13 +127,74 @@ color: #FFC700;
     font-size: 96px;
     line-height: 117px;
     text-shadow: 0 0 2px #fff;
-      
+
 
 }
+
 @supports (-webkit-text-stroke: 1px white) {
     .header__title_transporent {
-      text-shadow: none;
-      color: transparent;
-      -webkit-text-stroke: 1px #fff;
+        text-shadow: none;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
     }
-  }
+}
+
+.header__button {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 248px;
+    margin-left: 11.11%;
+    width: 230px;
+    height: 50px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+    
+}
+
+.header__button:hover {
+opacity: 0.8;
+cursor: pointer;
+}
+
+.header__button-linlk {
+    text-decoration: none;
+    max-width: 200px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.header__sotial {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 18px;
+    position: absolute;
+    top: 341px;
+    right: 11.11%;
+    list-style-type: none;
+}
+
+
+.header__sotial-vk {
+    background-image: url(./image/vk\ 1.svg);
+    width: 30px;
+    height:30px;
+    margin-bottom: 24px;
+}
+.header__sotial-inst {
+    background-image: url(./image/inst\ 1.svg);
+    width: 30px;
+    height:30px; 
+    margin-bottom: 24px; 
+}
+.header__sotial-fb {
+    background-image: url(./image/facebook\ 1.svg);
+    width: 30px;
+    height:30px;  
+}
+.sotial__link:hover {
+    scale: 1.1;
+    cursor: pointer;
+
+}
