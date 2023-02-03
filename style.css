@@ -21,6 +21,7 @@
     padding: 0;
     max-width: 100%;
     background-image: url(./image/фонheader.png);
+    background-repeat: no-repeat;
 
 }
 
@@ -142,6 +143,7 @@
 .header__button {
     margin: 0;
     padding: 0;
+    border: none;
     margin-bottom: 248px;
     margin-left: 11.11%;
     width: 230px;
@@ -152,17 +154,18 @@
 }
 
 .header__button:hover {
-opacity: 0.8;
+scale: 1.05;
 cursor: pointer;
 }
 
 .header__button-linlk {
     text-decoration: none;
-    max-width: 200px;
+    max-width: 220px;
     font-weight: 700;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
+    
 }
 .header__sotial {
     margin: 0;
@@ -197,4 +200,82 @@ cursor: pointer;
     scale: 1.1;
     cursor: pointer;
 
+}
+
+.iframe__block {
+    margin: 0;
+    margin-top: -110px;
+    margin-left: 63%;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    max-width: 535px;
+    overflow: scroll;
+
+}
+
+.iframe__block::-webkit-scrollbar {
+    width: 2px;
+    height: 7px;
+  }
+  
+  .iframe__block::-webkit-scrollbar-track {
+    -webkit-box-shadow: 2px 2px 2px -2px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 2px;
+  }
+  
+  .iframe__block::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+  }
+
+
+.iframe__video {
+    display: none;
+   border-radius: 10px;
+    width: 360px;
+    height: 227px;
+    margin-right: 20px;
+}
+
+.iframe__img {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-position: center;
+    object-fit: contain;
+    margin-right: 20px;
+    max-width: 360px;
+    height: 227px;
+}
+.iframe__img_type_caiac {
+    background-image: url("./image/каякфото.png");
+}
+.iframe__img_type_dahovskaia {
+    background-image: url("./image/горнаятрасса.jpg");  
+}
+
+.iframe__img_type_dzipping {
+    background-image: url("./image/джиппинг.jpg");    
+}
+.iframe__img-play {
+    margin-top: 81px;
+    margin-left: 147px;
+    margin-right: 147px;
+}
+.iframe__button {
+    background: transparent;
+    border: none;
+    margin-top: 81px;
+    margin-left: 147px;
+    margin-right: 147px;
+    width: 72px;
+    height: 72px;
+    background-image: url(./image/play.svg);
+    cursor: pointer;
+}
+.iframe__button:hover {
+    scale: 1.1;
 }
