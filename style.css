@@ -1,0 +1,129 @@
+.body {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1440px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-family: 'Gotham Pro';
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+
+}
+
+
+.header {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    background-image: url(./image/фонheader.png);
+
+}
+
+.header__logo {
+    margin: 0;
+    padding: 0;
+    width: 40px;
+    height: 50px;
+    margin-left: 12.5%;
+    margin-top: 27px;
+    margin-bottom: 152px;
+}
+
+.header__navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 11.12%;
+}
+
+.header__links-list {
+    margin: 0;
+    padding: 0;
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+
+}
+.header_link {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.header_link:last-child {
+    margin-right: 0;
+}
+.header_link-punkt {
+    margin: 0;
+    max-width: 124px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.header_link-punkt:focus  {
+    color: #FFC700;
+}
+.header__title {
+    margin: 0;
+    margin-left: 11.11%;
+    max-width: 723px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__title_white {
+    margin: 0;
+    max-width: 723px;
+    align-self: flex-start;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 72px;
+line-height: 88px;
+color: #FFFFFF;
+}
+.header__title_yellow{
+    margin: 0;
+    margin-top: -40px;
+    max-width: 723px;
+    margin-right: 32px;
+    align-self: flex-end;
+    font-family: 'mr_KindlyJasmineG';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 64px;
+color: #FFC700;
+}
+.header__title_transporent {
+    margin: 0;
+    margin-top: -40px;
+    margin-bottom: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 117px;
+    text-shadow: 0 0 2px #fff;
+      
+
+}
+@supports (-webkit-text-stroke: 1px white) {
+    .header__title_transporent {
+      text-shadow: none;
+      color: transparent;
+      -webkit-text-stroke: 1px #fff;
+    }
+  }

@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'mr_KindlyJasmineG';
+	src: url('./fonts/mr_kindlyjasmineg.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/mr_kindlyjasmineg.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/mr_kindlyjasmineg.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/mr_kindlyjasmineg.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/mr_kindlyjasmineg.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/mr_kindlyjasmineg.svg#mr_kindlyjasmineg') format('svg'); /* Chrome < 4, Legacy iOS */
+}
