@@ -298,6 +298,7 @@
 .excursions {
     margin-left: 11.11%;
     margin-right: 11.11%;
+    position: relative;
 }
 
 
@@ -376,8 +377,6 @@
 }
 
 
-
-
 .excursion__conteiner_type_mountain {
 
     background-image: url(./image/гора.jpg);
@@ -396,29 +395,6 @@
 .excursion__conteiner_type_river {
     background-image: url(./image/река\ белая.jpg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .excursion__type {
     margin: 0;
@@ -537,19 +513,65 @@
 .excursions__list::-webkit-scrollbar {
     width: 0;
     height: 10px;
+    
+    }
+
+    .excursions__list::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
 }
 
 .excursions__list::-webkit-scrollbar-track {
-
+    margin-left: 113px;
     -webkit-box-shadow: 2px 2px 2px -2px rgba(34, 60, 80, 0.2) inset;
     background-color: #f9f9fd;
     border-radius: 2px;
+   
 }
 
 .excursions__list::-webkit-scrollbar-thumb {
     border-radius: 10px;
     height: 7px;
     background: linear-gradient(180deg, #00c6fb, #005bea);
+    
+}
+
+
+.excursion__scroll-button {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+}
+.scroll-button-left {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    background-image: url(./image/Polygon\ 1.svg);
+    color: gray;
+    width: 24px;
+    height: 43px;
+    margin-right: 38px;
+border-radius: 3px;
+
+}
+
+.scroll-button-left:hover {
+    scale: 1.1;
+}
+
+.scroll-button-right {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    background-image: url(./image/Polygon\ 1.svg);  
+    width: 24px;
+    height: 43px;
+    transform: rotate(-180deg);
+}
+
+.scroll-button-right:hover {
+    scale: 1.1;
 }
 
 .information {
