@@ -150,12 +150,12 @@
     height: 50px;
     background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
     border-radius: 60px;
-    
+
 }
 
 .header__button:hover {
-scale: 1.05;
-cursor: pointer;
+    scale: 1.05;
+    cursor: pointer;
 }
 
 .header__button-linlk {
@@ -165,8 +165,9 @@ cursor: pointer;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
-    
+
 }
+
 .header__sotial {
     margin: 0;
     display: flex;
@@ -182,20 +183,23 @@ cursor: pointer;
 .header__sotial-vk {
     background-image: url(./image/vk\ 1.svg);
     width: 30px;
-    height:30px;
+    height: 30px;
     margin-bottom: 24px;
 }
+
 .header__sotial-inst {
     background-image: url(./image/inst\ 1.svg);
     width: 30px;
-    height:30px; 
-    margin-bottom: 24px; 
+    height: 30px;
+    margin-bottom: 24px;
 }
+
 .header__sotial-fb {
     background-image: url(./image/facebook\ 1.svg);
     width: 30px;
-    height:30px;  
+    height: 30px;
 }
+
 .sotial__link:hover {
     scale: 1.1;
     cursor: pointer;
@@ -211,29 +215,35 @@ cursor: pointer;
     flex-direction: row;
     max-width: 535px;
     overflow: scroll;
-
+    padding-bottom: 2px;
 }
 
 .iframe__block::-webkit-scrollbar {
-    width: 2px;
+    width: 0;
     height: 7px;
-  }
-  
-  .iframe__block::-webkit-scrollbar-track {
+}
+
+.iframe__block::-webkit-scrollbar-track {
+
     -webkit-box-shadow: 2px 2px 2px -2px rgba(34, 60, 80, 0.2) inset;
     background-color: #f9f9fd;
     border-radius: 2px;
-  }
-  
-  .iframe__block::-webkit-scrollbar-thumb {
+}
+
+.iframe__block::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: linear-gradient(180deg, #00c6fb, #005bea);
-  }
+}
+
+
+.iframe__block::-webkit-scrollbar-track-piece {
+    margin-top: 100px;
+}
 
 
 .iframe__video {
     display: none;
-   border-radius: 10px;
+    border-radius: 10px;
     width: 360px;
     height: 227px;
     margin-right: 20px;
@@ -250,21 +260,25 @@ cursor: pointer;
     max-width: 360px;
     height: 227px;
 }
+
 .iframe__img_type_caiac {
     background-image: url("./image/каякфото.png");
 }
+
 .iframe__img_type_dahovskaia {
-    background-image: url("./image/горнаятрасса.jpg");  
+    background-image: url("./image/горнаятрасса.jpg");
 }
 
 .iframe__img_type_dzipping {
-    background-image: url("./image/джиппинг.jpg");    
+    background-image: url("./image/джиппинг.jpg");
 }
+
 .iframe__img-play {
     margin-top: 81px;
     margin-left: 147px;
     margin-right: 147px;
 }
+
 .iframe__button {
     background: transparent;
     border: none;
@@ -276,6 +290,314 @@ cursor: pointer;
     background-image: url(./image/play.svg);
     cursor: pointer;
 }
+
 .iframe__button:hover {
     scale: 1.1;
+}
+
+.excursions {
+    margin-left: 11.11%;
+    margin-right: 11.11%;
+}
+
+
+.excursions__block {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.excursions__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+}
+
+.excursions__link {
+    margin: 0;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration: none;
+    color: #282828;
+    cursor: pointer;
+
+}
+
+.excursions__link:hover {
+    scale: 1.1;
+}
+
+.excursions__list {
+    padding-bottom: 62px;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+
+}
+
+.excursion__conteiner {
+    margin: 0;
+    width: 360px;
+    margin-bottom: 40px;
+    background-repeat: no-repeat;
+    object-position: center;
+    object-fit: contain;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.121739) 0%, #000000 100%), url(.jpg);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.excursion__conteiner_type_adler {
+
+    background-image: url(./image/мост.png);
+}
+
+.excursion__conteiner_type_horses {
+
+    background-image: url(./image/кони.png);
+}
+
+.excursion__conteiner_type_waterfall {
+    background-image: url(./image/водопад.png);
+
+}
+
+.excursion__conteiner_type_temple {
+    background-image: url(./image/храм.jpg);
+}
+
+
+
+
+.excursion__conteiner_type_mountain {
+
+    background-image: url(./image/гора.jpg);
+}
+
+.excursion__conteiner_type_cave {
+
+    background-image: url(./image/пещера.jpg.crdownload);
+}
+
+.excursion__conteiner_type_riverWhit {
+    background-image: url(./image/река.jpg);
+
+}
+
+.excursion__conteiner_type_river {
+    background-image: url(./image/река\ белая.jpg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.excursion__type {
+    margin: 0;
+    margin-top: 211px;
+    margin-bottom: 2px;
+    margin-left: 16px;
+    max-width: 320px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.excursion__title {
+    margin: 0;
+    padding: 0;
+    margin-left: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFC700;
+}
+
+.excursion__information {
+    margin: 0;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.excursion__time {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.excursion__price {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.excursion__time-photo {
+    margin-left: 16px;
+    margin-right: 4px;
+    width: 16px;
+    height: 16px;
+}
+
+.excursion__time-text {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+.excursion__price-photo {
+    width: 15px;
+    height: 15px;
+    margin-left: 16px;
+    margin-right: 5px;
+}
+
+.excursion__price-text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+
+
+.excursion__button {
+    margin: 0;
+    margin-left: 16px;
+    width: 160px;
+    height: 40px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 40px;
+    margin-bottom: 42px;
+    margin-top: 20px;
+    border: none;
+}
+
+
+.excursion__button:hover {
+    scale: 1.05;
+    cursor: pointer;
+}
+
+.excursion__text {
+    margin: 0;
+    margin-left: 16px;
+    max-width: 328px;
+    min-width: 300px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+
+.excursion__button-linlk {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+
+}
+
+
+.excursions__list::-webkit-scrollbar {
+    width: 0;
+    height: 10px;
+}
+
+.excursions__list::-webkit-scrollbar-track {
+
+    -webkit-box-shadow: 2px 2px 2px -2px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 2px;
+}
+
+.excursions__list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 7px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+.information {
+    margin-top: 170px;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+}
+
+.information__photo {
+    margin: 0;
+    max-width: 74.375%;
+}
+
+.information__info {
+    margin-top: 137px;
+    margin-right: 160px;
+    margin-left: -333px;
+    background: #EDEDED;
+    border-radius: 10px;
+    margin-bottom: 136px;
+}
+
+.information__title {
+    margin: 0;
+    margin-top: 61px;
+    margin-bottom: 40px;
+    margin-left: 85px;
+    max-width: 382px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0499DD;
+}
+
+.information__text {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: 85px;
+    margin-right: 75px;
+    max-width: 382px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+}
+.information__text:last-child {
+    margin-bottom: 105px;
 }
