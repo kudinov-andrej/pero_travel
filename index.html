@@ -279,6 +279,7 @@
             <button type="button" class="button button_type_type"><a class="button-linlk" hreff="#">К экскурсиям
                     &rarr;</a></button>
         </section>
+        
         <section class="gallery__block">
             <div class="gallery__menu">
                 <h2 class="gallery__title">Галерея</h2>
@@ -294,6 +295,7 @@
                 <figure class="gallery__item"><img src="./image/рисунок (8).png" alt="" class="gallery__image"></figure>
             </div>
         </section>
+        
         <section class="reviews">
             <div class="reviews__menu">
                 <h2 class="reviews__title">Галерея</h2>
@@ -320,13 +322,59 @@
                 <button type="button" class="scroll-button-right scroll_type_review-right">
             </div>
         </section>
-
-
+        
+        <section class="form">
+            <div class="form__conteiner">
+                <h2 class="form__title">Остались вопросы?</h2>
+                <p class="form__subtitle">Оставь заявку и мы ответим</p>
+                <form class="form__body" action="#" name ="form" novalidate>
+                    <input type="text" id="form__input-place" class="form__input form__input_type_place-name form__input_type_new-place" value="" name = "form-name" placeholder="Имя" required minlength="2" maxlength="30"/>
+                    <span class="form__error form__input-place-error"></span>
+                    <input type="telephone" id="form__input-number" class="form__input form__input_type_number-name form__input_type_new-number" value="" name = "form-number" placeholder="Номер телефона +7" required minlength="12" maxlength="12" pattern="+7[0-9]{3}[0-9]{7}" />
+                    <span class="form__error form__input-number-error"></span>
+                    <input type="email" id="form__input-email" class="form__input form__input_type_email form__input_type_new-email" value="" name = "form-email" placeholder="Адрес почты" required/>
+                    <span class="form__error form__input-email-error"></span>
+                    <input type="submit" class="form__button form__button_type_save form__button_type_disabled" value="Оставить заявку"/>
+                </form>
+            </div>
+        </section>
     </main>
+    
     <footer class="footer">
-
+        <img class="footer__logo" src="./image/logo_color 1.png" alt="логотип">
+        <ul class="footer__navigation">
+            <li class="footer_link"><a class="footer_link-punkt" href="#">Главная</a></li>
+            <li class="footer_link"><a class="footer_link-punkt" href="#">Экскурсии</a></li>
+            <li class="footer_link"><a class="footer_link-punkt" href="#">Личный кабинет</a></li>
+        </ul>
+        <div class="footer__contacts">
+            <div class="footer__contacts-punct">
+                <img class="footer__contacts-icon" src="./image/Group.png" alt="знак чата">
+                <p class="footer__contacts-namber">+7 964 944 18 74</p>
+            </div>
+            <div class="footer__contacts-punct">
+                <img class="footer__contacts-icon" src="./image/Group (2).png" alt="знак чата">
+                <p class="footer__contacts-namber">+7 918 919 98 28</p>
+            </div>
+            <div class="footer__contacts-punct">
+                <img class="footer__contacts-icon" src="./image/Group (2).png" alt="знак чата">
+                <a class="footer__contacts-namber footer__contacts-namber_type_link">Телеграм-бот PeroTravel</a>
+            </div>
+        </div>
+        <div class="footer__contacts footer__contacts_type_sotial">
+            <div class="footer__contacts-punct footer__contacts-punct_type_sotial">
+                <img class="footer__contacts-icon" src="./image/mail 1.png" alt="знак чата">
+                <p class="footer__contacts-namber">office@perotravel.ru</p>
+            </div>
+            <div class="footer__sotial">
+                <a class="footer__sotial-link" href="#"><img class="footer__sotial-icon" src="./image/vk 1.png" alt="знак чата"></a>
+                <a class="footer__sotial-link" href="#"><img class="footer__sotial-icon" src="./image/inst 1 (2).png" alt="знак чата"></a>
+                <a class="footer__sotial-link" href="#"><img class="footer__sotial-icon" src="./image/facebook 1.png" alt="знак чата"></a>
+            </div>
+        </div>
     </footer>
     <script src="./script.js"></script>
+    <script src="./validate.js"></script>
 </body>
 
 </html>
