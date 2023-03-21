@@ -15,6 +15,21 @@
 
 }
 
+@media screen and (max-width: 768px) {
+    .body {
+        max-width: 768px;
+
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .body {
+        max-width: 428px;
+
+    }
+}
+
 
 .header {
     margin: 0 auto;
@@ -26,15 +41,47 @@
 
 }
 
+@media screen and (max-width: 768px) {
+    .header {
+        background-image: url(./image/header_img.png);
+
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .header {
+        background-image: url(./image/header_img428.png);
+
+
+    }
+}
+
 .header__logo {
     margin: 0;
     padding: 0;
     width: 40px;
-    height: 50px;
+    height: 58px;
     margin-left: 12.5%;
     margin-top: 27px;
     margin-bottom: 152px;
 }
+
+@media screen and (max-width: 768px) {
+    .header__logo {
+        margin-left: 10.28%;
+        margin-bottom: 235px;
+     }
+}
+
+@media screen and (max-width: 428px) {
+    .header__logo {
+        margin-left: 5.6%;
+        margin-bottom: 116px;
+    }
+}
+
+
 
 .header__navigation {
     display: flex;
@@ -42,6 +89,45 @@
     justify-content: space-between;
     margin-right: 11.12%;
 }
+
+@media screen and (max-width: 768px) {
+    .header__navigation {
+        
+     }
+}
+
+@media screen and (max-width: 428px) {
+    .header__navigation {
+       
+    }
+}
+
+    .header__button-menu {
+        margin: 0;
+        border: none;
+        background-image: url(./image/меню.svg);
+        width: 40px;
+        height: 40px;
+        background-repeat: no-repeat;
+        display: none;
+    
+    }
+    
+    @media screen and (max-width: 768px) {
+        .header__button-menu {
+            display: block;
+            margin-top: 40px;
+            margin-right: 10.28%;
+        }
+    }
+
+    @media screen and (max-width: 428px) {
+        .header__button-menu {
+            margin-right: 5.6%;
+        }
+    }
+
+
 
 .header__links-list {
     margin: 0;
@@ -58,6 +144,14 @@
     color: #FFFFFF;
 
 }
+
+@media screen and (max-width: 768px) {
+    .header__links-list  {
+        display: none;
+        
+    }
+}
+
 
 .header_link {
     text-decoration: none;
@@ -910,8 +1004,10 @@
 .reviews__conteiner::-webkit-scrollbar {
     width: 0;
     height: 10px;
+    cursor: pointer;
 
 }
+
 
 .reviews__conteiner::-webkit-scrollbar-thumb:hover {
     cursor: pointer;
@@ -929,6 +1025,7 @@
     border-radius: 10px;
     height: 7px;
     background: linear-gradient(180deg, #00c6fb, #005bea);
+    cursor: pointer;
 
 }
 

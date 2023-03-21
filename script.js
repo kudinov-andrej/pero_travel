@@ -1,3 +1,4 @@
+/*
 document.addEventListener('click', function () {
     const buttonScrollExscursionLeft = document.querySelector('.scroll-button-left');
     buttonScrollExscursionLeft.onclick = function () {
@@ -28,3 +29,5 @@ document.addEventListener('click', function () {
         document.querySelector('.reviews__conteiner').scrollLeft += 50;
     };
 }, false);
+*/
+
