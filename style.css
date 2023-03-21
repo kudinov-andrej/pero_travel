@@ -22,6 +22,7 @@
     max-width: 100%;
     background-image: url(./image/фонheader.png);
     background-repeat: no-repeat;
+    position: relative;
 
 }
 
@@ -216,6 +217,7 @@
     max-width: 535px;
     overflow: scroll;
     padding-bottom: 2px;
+    
 }
 
 .iframe__block::-webkit-scrollbar {
@@ -259,6 +261,7 @@
     margin-right: 20px;
     max-width: 360px;
     height: 227px;
+    z-index: 1;
 }
 
 .iframe__img_type_caiac {
