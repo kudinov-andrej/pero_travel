@@ -1004,7 +1004,7 @@
 @media screen and (max-width: 550px) {
     .information__info {
        
-        margin-left: -210px;
+        margin-left: -200px;
         max-width: 380px;
     }
 }
@@ -1212,8 +1212,8 @@
 
 @media screen and (max-width: 428px) {
     .button_type_type {
-        margin-left: 20.625%;
-        margin-right: 20.625%;
+        margin-left: 99px;
+        margin-right: 99px;
         margin-bottom: 167px;
     }
 }
