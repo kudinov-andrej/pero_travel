@@ -1,0 +1,25 @@
+.excursion__type {
+    margin: 0;
+    margin-top: 211px;
+    margin-bottom: 2px;
+    margin-left: 16px;
+    max-width: 320px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .excursion__type {
+        max-width: 265px;
+
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .excursion__type {
+        max-width: 253px;
+    }
+}

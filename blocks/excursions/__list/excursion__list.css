@@ -1,0 +1,24 @@
+.excursions__list::-webkit-scrollbar {
+    width: 0;
+    height: 10px;
+
+}
+
+.excursions__list::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+
+.excursions__list::-webkit-scrollbar-track {
+    margin-left: 113px;
+    -webkit-box-shadow: 2px 2px 2px -2px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 2px;
+
+}
+
+.excursions__list::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 7px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+
+}

@@ -1,0 +1,18 @@
+.footer__contacts_type_sotial {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 835px) {
+    .footer__contacts_type_sotial {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__contacts_type_sotial {
+        order: 3;
+    }
+}

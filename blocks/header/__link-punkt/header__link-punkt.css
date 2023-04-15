@@ -1,0 +1,14 @@
+.header__link-punkt {
+    margin: 0;
+    max-width: 124px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.header__link-punkt:focus {
+    color: #FFC700;
+}
+
+.header__link-punkt:hover {
+    opacity: 0.8;
+}

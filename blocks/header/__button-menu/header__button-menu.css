@@ -1,0 +1,20 @@
+
+.header__button-menu {
+    margin: 0;
+    border: none;
+    background-color: transparent;
+    background-image: url(../../../image/меню\ \(1\).png);
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    display: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    .header__button-menu {
+        display: block;
+        margin-top: 40px;
+
+    }
+}

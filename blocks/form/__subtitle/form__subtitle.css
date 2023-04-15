@@ -1,0 +1,35 @@
+.form__subtitle {
+    margin: 0;
+    margin-left: 105px;
+    margin-right: 195px;
+    margin-bottom: 60px;
+    max-width: 360px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFC700;
+}
+
+@media screen and (max-width: 1200px) {
+    .form__subtitle {
+        margin-left: 43px;
+        margin-right: 97px;
+
+    }
+}
+
+@media screen and (max-width: 811px) {
+    .form__subtitle {
+        margin-left: 33px;
+        margin-right: 77px;
+
+    }
+}
+
+
+@media screen and (max-width: 468px) {
+    .form__subtitle {
+        margin-right: 77px;
+
+    }
+}

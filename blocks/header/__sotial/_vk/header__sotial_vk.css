@@ -1,0 +1,12 @@
+.header__sotial_vk {
+    background-image: url(../../../../image/vk\ 1.svg);
+    width: 30px;
+    height: 30px;
+    margin-bottom: 24px;
+}
+
+@media screen and (max-width: 966px) {
+    .header__sotial_vk {
+        margin-bottom: 22px;
+    }
+}

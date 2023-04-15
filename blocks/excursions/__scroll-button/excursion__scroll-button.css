@@ -1,0 +1,38 @@
+.excursion__scroll-button {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+}
+
+.scroll-button-left {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    background-image: url(../../../image/Polygon\ 1.svg);
+    color: gray;
+    width: 24px;
+    height: 43px;
+    margin-right: 38px;
+    border-radius: 3px;
+
+}
+
+.scroll-button-left:hover {
+    scale: 1.1;
+}
+
+.scroll-button-right {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    background-image: url(../../../image/Polygon\ 1.svg);
+    width: 24px;
+    height: 43px;
+    transform: rotate(-180deg);
+}
+
+.scroll-button-right:hover {
+    scale: 1.1;
+}

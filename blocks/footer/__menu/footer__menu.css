@@ -1,0 +1,14 @@
+.footer__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 42px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .footer__menu {
+        order: 3;
+
+    }
+}

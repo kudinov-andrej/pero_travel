@@ -1,0 +1,35 @@
+.excursion__button {
+    margin: 0;
+    margin-left: 16px;
+    width: 160px;
+    height: 40px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 40px;
+    bottom: 42px;
+    margin-top: 20px;
+    border: none;
+}
+
+
+@media screen and (max-width: 768px) {
+    .excursion__button {
+        bottom: 31px;
+        margin-top: 46px;
+
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .excursion__button {
+
+        margin-bottom: 30px;
+
+    }
+}
+
+
+.excursion__button:hover {
+    scale: 1.05;
+    cursor: pointer;
+}

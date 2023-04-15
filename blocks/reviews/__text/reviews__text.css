@@ -1,0 +1,28 @@
+
+.review__text {
+    margin: 0;
+    margin-bottom: 94px;
+    width: 395px;
+    margin-right: 27px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #282828;
+}
+
+@media screen and (max-width: 768px) {
+    .review__text {
+        max-width: 269px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .review__text {
+        max-width: 228px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+}

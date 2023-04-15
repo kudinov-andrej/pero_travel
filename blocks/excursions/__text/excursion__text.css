@@ -1,0 +1,24 @@
+.excursion__text {
+    margin: 0;
+    margin-left: 16px;
+    max-width: 328px;
+    min-width: 280px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .excursion__text {
+        max-width: 265px;
+        min-width: 240px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .excursion__text {
+        max-width: 253px;
+        min-width: 240px;
+    }
+}

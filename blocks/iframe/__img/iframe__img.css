@@ -1,0 +1,24 @@
+.iframe__img {
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-position: center;
+    object-fit: contain;
+    margin-right: 20px;
+    max-width: 360px;
+    height: 227px;
+    z-index: 1;
+}
+
+.iframe__img_type_caiac {
+    background-image: url("../../../image/каякфото.png");
+}
+
+.iframe__img_type_dahovskaia {
+    background-image: url("../../../image/горнаятрасса.jpg");
+}
+
+.iframe__img_type_dzipping {
+    background-image: url("../../../image/джиппинг.jpg");
+}

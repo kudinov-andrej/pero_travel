@@ -1,0 +1,21 @@
+.iframe__video {
+    display: none;
+    border-radius: 10px;
+    width: 360px;
+    height: 227px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .iframe__video {
+        width: 295px;
+        height: 187px;
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .iframe__video {
+        max-width: 740px;
+    }
+}

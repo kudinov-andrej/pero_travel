@@ -1,0 +1,22 @@
+.type__text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+    max-width: 455px;
+}
+
+@media screen and (max-width: 768px) {
+    .type__text {
+        max-width: 515px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .type__text {
+        max-width: 285px;
+        font-size: 13px;
+        line-height: 16px;
+    }
+}

@@ -1,0 +1,16 @@
+.type__conteiner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .type__conteiner {
+        grid-template-columns: 1fr;
+        gap: 0;
+        
+        /*row-gap: 40px;*/
+
+    }
+}

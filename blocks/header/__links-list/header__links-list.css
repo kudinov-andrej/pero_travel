@@ -1,0 +1,22 @@
+.header__links-list {
+    margin: 0;
+    padding: 0;
+    margin-top: 46px;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
+}
+
+@media screen and (max-width: 768px) {
+    .header__links-list {
+        display: none;
+
+    }
+}

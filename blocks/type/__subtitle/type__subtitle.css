@@ -1,0 +1,16 @@
+.type__subtitle {
+    margin: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0499DD;
+    max-width: 455px;
+}
+
+
+@media screen and (max-width: 428px) {
+    .type__subtitle {
+        max-width: 285px;
+    }
+}

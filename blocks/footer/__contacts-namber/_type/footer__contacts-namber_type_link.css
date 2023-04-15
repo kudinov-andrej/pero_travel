@@ -1,0 +1,10 @@
+.footer__contacts-namber_type_link {
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: #282828;
+}
+
+.footer__contacts-namber_type_link:hover {
+    opacity: 0.8;
+}

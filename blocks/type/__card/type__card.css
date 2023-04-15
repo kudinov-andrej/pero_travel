@@ -1,0 +1,13 @@
+.type__card {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+@media screen and (max-width: 768px) {
+    .type__card {
+       margin-bottom: 40px;
+     
+    }
+}

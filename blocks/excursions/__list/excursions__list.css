@@ -1,0 +1,13 @@
+.excursions__list {
+    padding-bottom: 62px;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+
+}
+
+@media screen and (max-width: 428px) {
+    .excursions__list {
+        padding-bottom: 77px;
+    }
+}

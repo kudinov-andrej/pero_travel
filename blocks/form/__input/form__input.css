@@ -1,0 +1,50 @@
+.form__input {
+    margin: 0;
+    margin-left: 105px;
+    margin-right: 95px;
+    background-color: transparent;
+    border: none;
+    max-width: 360px;
+    border-bottom: 2px solid white;
+    margin-bottom: 15px;
+    height: 30px;
+    box-shadow: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .form__input {
+        margin-left: 43px;
+        margin-right: 97px;
+
+    }
+}
+
+@media screen and (max-width: 811px) {
+    .form__input {
+        margin-left: 33px;
+        margin-right: 77px;
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form__input {
+        max-width: 316px;
+        margin-left: 43px;
+        margin-right: 41px;
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .form__input {
+        max-width: 295px;
+        margin-right: 42px;
+
+    }
+}
+
+.form__input:focus {
+    outline: 0;
+    outline-offset: 0;
+}

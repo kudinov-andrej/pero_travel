@@ -1,0 +1,15 @@
+.iframe__button {
+    background: transparent;
+    border: none;
+    margin-top: 81px;
+    margin-left: 147px;
+    margin-right: 147px;
+    width: 72px;
+    height: 72px;
+    background-image: url("../../../image/play.svg");
+    cursor: pointer;
+}
+
+.iframe__button:hover {
+    scale: 1.1;
+}

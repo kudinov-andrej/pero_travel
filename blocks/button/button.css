@@ -1,0 +1,32 @@
+.button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    margin-bottom: 248px;
+    margin-left: 11.11%;
+    width: 230px;
+    height: 50px;
+    background: linear-gradient(92.71deg, #0499DD 0%, #17C1BC 100%);
+    border-radius: 60px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .button {
+        margin-left: 10.28%;
+        margin-bottom: 321px;
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .button {
+        margin-bottom: 401px;
+        margin-left: 5.6%;
+    }
+}
+
+.button:hover {
+    scale: 1.05;
+    cursor: pointer;
+}

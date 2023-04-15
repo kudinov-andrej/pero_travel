@@ -1,0 +1,23 @@
+.review__img {
+    margin: 0;
+    margin: 38px 28px 38px 45px;
+    max-width: 245px;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .review__img {
+        max-width: 168px;
+        margin-right: 20px;
+        margin-left: 31px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .review__img {
+        max-width: 80px;
+        margin-left: 28px;
+    }
+}

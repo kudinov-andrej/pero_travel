@@ -1,0 +1,38 @@
+.reviews__conteiner {
+    margin: 0;
+    padding-bottom: 62px;
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+
+.reviews__conteiner::-webkit-scrollbar {
+    width: 0;
+    height: 10px;
+    cursor: pointer;
+
+}
+
+
+.reviews__conteiner::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+}
+
+.reviews__conteiner::-webkit-scrollbar-track {
+    margin-left: 113px;
+    -webkit-box-shadow: 2px 2px 2px -2px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 2px;
+
+}
+
+.reviews__conteiner::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    height: 7px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+    cursor: pointer;
+
+}

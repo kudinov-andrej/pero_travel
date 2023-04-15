@@ -1,0 +1,7 @@
+
+.footer__contacts-punct {
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    order: 2;
+}

@@ -1,0 +1,39 @@
+.header__title_yellow {
+    margin: 0;
+    margin-top: -40px;
+    max-width: 723px;
+    margin-right: 32px;
+    align-self: flex-end;
+    font-family: 'mr_KindlyJasmineG';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFC700;
+}
+
+@media screen and (max-width: 768px) {
+    .header__title_yellow {
+        margin-top: -25px;
+        margin-right: -62px;
+        max-width: 395px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 48px;
+    }
+}
+
+@media screen and (max-width: 531px) {
+    .header__title_yellow {
+        max-width: 296px;
+        margin-bottom: 18px;
+        margin-right: -24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header__title_yellow {
+        max-width: 200px;
+        margin-right: 5px;
+    }
+}

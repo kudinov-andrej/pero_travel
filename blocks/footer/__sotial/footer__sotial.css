@@ -1,0 +1,14 @@
+.footer__sotial {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__sotial {
+        margin: 0;
+        order: 1;
+    }
+}

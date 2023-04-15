@@ -1,0 +1,22 @@
+.review__card {
+    margin: 0;
+    margin-right: 20px;
+    background-color: #EDEDED;
+    border-radius: 10px;
+    max-width: 740px;
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 768px) {
+    .review__card {
+        max-width: 505px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .review__card {
+        max-width: 280px;
+        flex-direction: column;
+    }
+}

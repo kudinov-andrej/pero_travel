@@ -1,0 +1,20 @@
+.reviews {
+    margin: 0;
+    margin-bottom: 172px;
+    margin-left: 11.11%;
+    margin-right: 0;
+    position: relative;
+
+}
+
+@media screen and (max-width: 768px) {
+    .reviews {
+        margin-left: 79px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .reviews {
+        margin-left: 24px;
+    }
+}

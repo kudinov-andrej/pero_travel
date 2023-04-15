@@ -1,0 +1,11 @@
+.footer__link-punkt {
+    text-decoration: none;
+    color: #282828;
+    
+
+}
+
+.footer__link-punkt:hover {
+    opacity: 0.8;
+
+}

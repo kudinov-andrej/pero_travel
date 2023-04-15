@@ -1,0 +1,23 @@
+.form {
+    margin: 0;
+    background-image: url(../../image/фон\ формы.png);
+    background-repeat: no-repeat;
+    max-width: 1480px;
+    min-height: 680px;
+}
+
+@media screen and (max-width: 768px) {
+    .form {
+        max-width: 768px;
+        background-image: url(../../image/фон768.png);
+        min-height: 680px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .form {
+        max-width: 428px;
+        background-image: url(../../image/форма468.png);
+        min-height: 928px;
+    }
+}

@@ -1,0 +1,41 @@
+.header__sotial {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 18px;
+    position: absolute;
+    top: 341px;
+    right: 160px;
+    list-style-type: none;
+}
+
+@media screen and (max-width: 966px) {
+    .header__sotial {
+        top: 441px;
+
+
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__sotial {
+        top: 465px;
+        right: 81px;
+
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .header__sotial {
+        top: 565px;
+        right: 81px;
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .header__sotial {
+        top: 625px;
+        right: 26px;
+    }
+}

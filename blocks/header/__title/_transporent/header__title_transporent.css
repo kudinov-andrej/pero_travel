@@ -1,0 +1,40 @@
+.header__title_transporent {
+    margin: 0;
+    margin-top: -40px;
+    margin-bottom: 60px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 117px;
+    text-shadow: 0 0 2px #fff;
+
+
+}
+
+@supports (-webkit-text-stroke: 1px white) {
+    .header__title_transporent {
+        text-shadow: none;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .header__title_transporent {
+        max-width: 406px;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 90%;
+        margin-bottom: 90px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .header__title_transporent {
+        max-width: 305px;
+        font-size: 72px;
+        line-height: 90%;
+    }
+}

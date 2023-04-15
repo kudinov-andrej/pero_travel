@@ -1,0 +1,60 @@
+.excursion__conteiner {
+    margin: 0;
+    min-width: 360px;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+    min-height: 497px;
+}
+
+@media screen and (max-width: 768px) {
+    .excursion__conteiner {
+        width: 295px;
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .excursion__conteiner {
+        width: 280px;
+
+    }
+}
+
+.excursion__conteiner_type_adler {
+    background-image: url(../../../image/мост.png);
+
+}
+
+.excursion__conteiner_type_horses {
+    background-image: url(../../../image/кони.png);
+
+}
+
+.excursion__conteiner_type_waterfall {
+    background-image: url(../../../image/водопад.png);
+}
+
+.excursion__conteiner_type_temple {
+    background-image: url(../../../image/храм.jpg);
+}
+
+
+.excursion__conteiner_type_mountain {
+    background-image: url(../../../image/гора.jpg);
+}
+
+.excursion__conteiner_type_cave {
+    background-image: url(../../../image/пещера.jpg.crdownload);
+}
+
+.excursion__conteiner_type_riverWhit {
+    background-image: url(../../../image/река.jpg);
+}
+
+.excursion__conteiner_type_river {
+    background-image: url(../../../image/река\ белая.jpg);
+}

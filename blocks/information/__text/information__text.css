@@ -1,0 +1,35 @@
+.information__text {
+    margin: 0;
+    margin-bottom: 20px;
+    margin-left: 85px;
+    margin-right: 75px;
+    max-width: 382px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #282828;
+}
+
+@media screen and (max-width: 768px) {
+    .information__text {
+        margin-left: 56px;
+        margin-right: 55px;
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .information__text {
+        margin-bottom: 10px;
+        margin-left: 43px;
+        margin-right: 43px;
+        font-size: 13px;
+        line-height: 16px;
+        max-width: 294px;
+    }
+}
+
+
+.information__text:last-child {
+    margin-bottom: 105px;
+}

@@ -1,0 +1,7 @@
+.excursion__information {
+    margin: 0;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+
+}

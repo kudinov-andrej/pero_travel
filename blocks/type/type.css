@@ -1,0 +1,21 @@
+.type {
+
+    margin-left: 11.11%;
+    margin-right: 11.11%;
+}
+
+@media screen and (max-width: 768px) {
+    .type {
+        max-width: 768px;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .type {
+        max-width: 380px;
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+}

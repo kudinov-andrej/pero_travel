@@ -1,0 +1,9 @@
+@media screen and (max-width: 768px) {
+    .footer__contacts_type_namber {
+        margin: 0;
+        margin-bottom: 30px;
+        order: 3;
+
+
+    }
+}

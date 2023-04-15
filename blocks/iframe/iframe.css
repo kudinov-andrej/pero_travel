@@ -1,0 +1,50 @@
+.iframe {
+    margin: 0;
+    margin-top: -110px;
+    margin-left: 63%;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+    max-width: 740px;
+    overflow: scroll;
+    padding-bottom: 2px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .iframe {
+        max-width: 610px;
+        margin-left: 37.63%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .iframe {
+        max-width: 740px;
+        margin-left: 24px;
+    }
+}
+
+
+
+.iframe::-webkit-scrollbar {
+    width: 0;
+    height: 7px;
+}
+
+.iframe::-webkit-scrollbar-track {
+
+    -webkit-box-shadow: 2px 2px 2px -2px rgba(34, 60, 80, 0.2) inset;
+    background-color: #f9f9fd;
+    border-radius: 2px;
+}
+
+.iframe::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: linear-gradient(180deg, #00c6fb, #005bea);
+}
+
+
+.iframe::-webkit-scrollbar-track-piece {
+    margin-top: 100px;
+}

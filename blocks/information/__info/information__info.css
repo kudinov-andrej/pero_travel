@@ -1,0 +1,25 @@
+.information__info {
+    margin-top: 137px;
+    margin-right: 160px;
+    margin-left: -333px;
+    max-width: 542px;
+    background: #EDEDED;
+    border-radius: 10px;
+    margin-bottom: 136px;
+}
+
+@media screen and (max-width: 768px) {
+    .information__info {
+        margin-right: 79px;
+        margin-left: -250px;
+        max-width: 493px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .information__info {
+       
+        margin-left: -200px;
+        max-width: 380px;
+    }
+}

@@ -1,0 +1,26 @@
+
+.header {
+    margin: 0 auto;
+    padding: 0;
+    max-width: 100%;
+    background-image: url(../../image/фонheader.png);
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        background-image: url(../../image/header_img.png);
+
+
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .header {
+        background-image: url(../../image/header_img428.png);
+
+
+    }
+}

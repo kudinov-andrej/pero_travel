@@ -1,0 +1,21 @@
+.information__photo {
+    margin: 0;
+    left: 0;
+    background-image: url("../../../image/озеро.png");
+    background-repeat: no-repeat;
+    width: 74.375%;
+}
+
+@media screen and (max-width: 768px) {
+    .information__photo {
+        background-image: url("../../../image/озеро728.png");
+        width: 69.23%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .information__photo {
+        background-image: url("../../../image/озеро480.png");
+        width: 71.02%;
+    }
+}

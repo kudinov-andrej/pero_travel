@@ -1,0 +1,21 @@
+.footer__sotial-icon {
+    
+    width: 31px;
+    height: 20px;
+    margin-right: 11px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__sotial-icon {
+        margin: 0;
+        order: 1;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer__contacts_type_sotial {
+        order: 2;
+    }
+}

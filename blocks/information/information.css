@@ -1,0 +1,19 @@
+.information {
+    max-width: 1480px;
+    margin-top: 170px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+@media screen and (max-width: 768px) {
+    .information {
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .information {
+        max-width: 500px;
+    }
+}

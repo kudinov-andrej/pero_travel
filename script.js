@@ -1,33 +1,17 @@
 
-document.addEventListener('click', function () {
-    const buttonScrollExscursionLeft = document.querySelector('.scroll-button-left');
-    buttonScrollExscursionLeft.onclick = function () {
-        document.querySelector('.excursions__list').scrollLeft += -50;
-    };
-}, false);
-
-
-document.addEventListener('click', function () {
-    const buttonScrollExscursionRight = document.querySelector('.scroll-button-right');
-    buttonScrollExscursionRight.onclick = function () {
-        document.querySelector('.excursions__list').scrollLeft += 50;
-    };
-}, false);
-
-
-document.addEventListener('click', function () {
-    const buttonScrollExscursionLeft = document.querySelector('.scroll_type_review-left');
-    buttonScrollExscursionLeft.onclick = function () {
-        document.querySelector('.reviews__conteiner').scrollLeft += -50;
-    };
-}, false);
-
-
-document.addEventListener('click', function () {
-    const buttonScrollExscursionRight = document.querySelector('.scroll_type_review-right');
-    buttonScrollExscursionRight.onclick = function () {
-        document.querySelector('.reviews__conteiner').scrollLeft += 50;
-    };
-}, false);
-
-
+function createScrollHandler(blockClass, buttonLeftClass, buttonRightClass, scrollContainerClass) {
+    const block = document.querySelector(`.${blockClass}`);
+    block.addEventListener('click', function (event) {
+      const target = event.target;
+      const container = document.querySelector(`.${scrollContainerClass}`);
+  
+      if (target.classList.contains(buttonLeftClass)) {
+        container.scrollLeft += -50;
+      } else if (target.classList.contains(buttonRightClass)) {
+        container.scrollLeft += 50;
+      }
+    }, false);
+  }
+  
+  createScrollHandler('excursions', 'scroll-button-left', 'scroll-button-right', 'excursions__list');
+  createScrollHandler('reviews', 'scroll_type_review-left', 'scroll_type_review-right', 'reviews__conteiner');

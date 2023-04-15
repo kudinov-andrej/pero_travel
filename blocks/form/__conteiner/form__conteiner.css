@@ -1,0 +1,29 @@
+.form__conteiner {
+    margin: 0;
+    margin-left: 45%;
+    margin-right: 11.11%;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width: 768px) {
+    .form__conteiner {
+        max-width: 400px;
+        min-width: 380px;
+        min-height: 640px;
+        margin-left: 10.63%;
+        margin-right: 79px;
+        margin-right: 10%;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .form__conteiner {
+        max-width: 380px;
+        min-width: 300px;
+        margin-left: 5%;
+    }
+}

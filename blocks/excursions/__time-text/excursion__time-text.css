@@ -1,0 +1,15 @@
+.excursion__time-text {
+    max-width: 47px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 768px) {
+    .excursion__time-text {
+        max-width: 43px;
+
+
+    }
+}
